@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+ @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+/* .yourElement {
+     animation-duration: 3s;
+     animation-delay: 2s;
+     animation-iteration-count: infinite;
+}
+ */
+ body{
+     background:
+    /* top, transparent background: #1a1a1a;
+     black, faked with gradient */
+     linear-gradient( rgba(26, 26, 26, 0.5), rgba(26, 26, 26, 0.5) ),
+    /* bottom, image */
+     url('../images/coffee-beans.jpg')no-repeat center center fixed;
+     ;
+}
+ section.vote-forma{
+    /* background: #1a1a1a;
+     */
+     background-color:rgba(21, 12, 0, 0.74);
+     padding: 0 30px 90px;
+}
+ form#vote-form{
+     margin-left: -100px;
+     margin-top: -15px;
+}
+ h1.header1 {
+     color: #F4E8DA;
+     font-family: "Lato", sans-serif;
+     border-bottom: 1px solid #E65634;
+     font-size: 36px;
+     font-weight: 400;
+     line-height: 40px;
+     margin: 0 auto 12px;
+     max-width: 600px;
+     padding-top: 30px;
+     padding-bottom: 20px;
+     text-align: center;
+}
+ h1.header3 {
+     color: #F4E8DA;
+     font-family: "Lato", sans-serif;
+     border-bottom: 1px solid #E65634;
+     font-size: 28px;
+     font-weight: 400;
+     line-height: 40px;
+     margin: 0 auto 12px;
+     max-width: 600px;
+     padding-top: 90px;
+     padding-bottom: 10px;
+     text-align: center;
+}
+ p.header2 {
+     color: #DAB7A3;
+     font-family: 'Lato';
+     font-size: 18px;
+     font-weight: 300;
+     line-height: 36px;
+     margin: 0 auto 36px;
+     max-width: 400px;
+     padding-bottom: 90px;
+}
+ p.header4 {
+     color: #DAB7A3;
+     font-family: 'Lato';
+     font-size: 15px;
+     font-weight: 300;
+     line-height: 36px;
+     margin: 0 auto 36px;
+     max-width: 400px;
+     padding-bottom: 50px;
+}
+ a {
+     color: #E65634;
+}
+ a:hover {
+     color: #fff;
+}
+ header {
+     position: relative;
+     background: url('../images/logo.png') black no-repeat center center scroll;
+     height: 100vh;
+     min-height: 25rem;
+     width: 100%;
+     overflow: hidden;
+}
+ header video {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     min-width: 100%;
+     min-height: 100%;
+     width: auto;
+     height: auto;
+     z-index: 0;
+     -ms-transform: translateX(-50%) translateY(-50%);
+     -moz-transform: translateX(-50%) translateY(-50%);
+     -webkit-transform: translateX(-50%) translateY(-50%);
+     transform: translateX(-50%) translateY(-50%);
+}
+ header .container-video {
+     position: relative;
+     z-index: 2;
+}
+ header .overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     background-color: black;
+     opacity: 0.5;
+     z-index: 1;
+}
+ .w-100{
+     margin-top: 45%;
+}
+ h1.display-3{
+     font-family: "Lato", sans-serif;
+     color: #F4E8DA;
+     font-size: 40px;
+}
+ .lead{
+     color: #F4E8DA;
+}
+ @media (pointer: coarse) and (hover: none) {
+     header {
+         background: url('../images/logo.png') black no-repeat center center scroll;
+    }
+     header video {
+         display: none;
+    }
+}
+ @media only screen and (max-width: 736px) {
+     header{
+         background-size:contain;
+    }
+     form#vote-form{
+         margin-top: -75px;
+         padding-bottom: 20px;
+    }
+}
+/* coffee poll */
+ .row {
+     text-align: center;
+}
+ .col-md-6 {
+     display:inline-block;
+     padding: 20px;
+}
+ input[type="radio"] {
+     margin-left: 50px;
+     padding: 23px;
+     font-size: 35px;
+     margin-top: 13px;
+}
+ label.cafe-type{
+     position:absolute;
+     padding: 23px;
+}
+ p.form-submit{
+     margin-left: 26%;
+     margin-top: 29px;
+}
+ p.cafe-type, label.cafe-type{
+     color: #F4E8DA;
+     font-size: 19px;
+     letter-spacing: 3px;
+     margin-top: -15px;
+     padding: 22px;
+}
+ @media only screen and (max-width: 736px) {
+     h1.text-info{
+         font-size: 38px;
+         font-weight: 600;
+    }
+     div > .col-md-4 {
+         padding-right: 50%;
+         margin-top: -75px;
+    }
+     p.form-1{
+         margin-right: 10%;
+    }
+     label.cafe-type{
+         position: absolute;
+    }
+     h1.cafe-type, label.cafe-type{
+         color: #F4E8DA;
+         font-size: 14px;
+         letter-spacing: 3px;
+         margin-top: -2px;
+         padding: 12px;
+    }
+     .w-100{
+         margin-top: 45%;
+    }
+     h1.header1 {
+         font-size: 35px;
+         padding-top: 60px;
+         padding-bottom: 10px;
+    }
+     h1.header3 {
+         font-size: 25px;
+         padding-bottom: 1px;
+    }
+     p.header2 {
+         font-size: 15px;
+    }
+     p.header4 {
+         font-size: 15px;
+    }
+}
+/*footer */
+ a:hover{
+     text-decoration:none;
+}
+ .section-padding {
+     padding: 60px 0;
+}
+ .bottom-footer {
+     background-color: #1a1a1a;
+}
+ .bottom-footer .copyright {
+     color: #e5e5e5;
+     font-weight: 600;
+}
+ .copyright a {
+     color: #f2ff49;
+     margin-left: 3px;
+     padding-right: 3px;
+}
+ .bottom-footer p {
+     margin-bottom: 0;
+     line-height: 50px;
+     font-size: 16px;
+     font-weight: 400;
+}
+ .copyright p span {
+     color: #d1caca;
+}
+ .bottom-footer .copyright p, .bottom-footer .copyright a:hover{
+     color: #6c6d83;
+}
+/*button homepage see more */
+ .orange-circle-button a {
+     font-size: 10px;
+}
+ @media only screen and (max-width: 736px) {
+     .section-padding {
+         padding: 65px 0px 0px;
+    }
+}
+ .orange-circle-button {
+     box-shadow: 2px 4px 0 2px rgba(0,0,0,0.1);
+     border: .2em solid rgba(253, 233, 224, 0.37);
+     font-size: 10px;
+     font-weight: 400;
+     line-height: 16px;
+     color: #ffffff;
+     background-color: rgba(26, 26, 26, 0.5);
+     margin: auto;
+     border-radius: 50%;
+     height: 70px;
+     width: 70px;
+     position: relative;
+     position: absolute;
+     top: 86%;
+     white-space: nowrap;
+     -webkit-animation: rightThenLeft 4s linear;
+     left: 93%;
+}
+ .orange-circle-button:hover {
+     color:#ffffff;
+     background-color: #e84d0e;
+     text-decoration: none;
+     border-color: #ff7536;
+     font-weight: 500;
+}
+ .orange-circle-button:visited {
+     color:#ffffff;
+     background-color: rgba(120, 40, 7, 0.18);
+     text-decoration: none;
+}
+ .orange-circle-link-greater-than {
+     font-size: 10px;
+}
+ @media only screen and (max-width: 667px) {
+     .orange-circle-button {
+         box-shadow: 2px 4px 0 2px rgba(0,0,0,0.1);
+         border: .1em solid #E84D0E;
+         font-size: 8px;
+         line-height: 10px;
+         height: 50px;
+         width: 50px;
+         position: absolute;
+         top: 90%;
+         white-space: nowrap;
+         -webkit-animation: rightThenLeft 4s linear;
+         left: 83%;
+    }
+     header video {
+         position: absolute;
+         width: auto;
+         height: auto;
+         z-index: 0;
+         -ms-transform: translateX(-50%) translateY(-50%);
+         -moz-transform: translateX(-50%) translateY(-50%);
+         -webkit-transform: translateX(-50%) translateY(-50%);
+         transform: translateX(-50%) translateY(-50%);
+    }
+     .marquee {
+         white-space: nowrap;
+         -webkit-animation: rightThenLeft 4s linear;
+    }
+     @-webkit-keyframes rightThenLeft {
+         50% {
+            margin-right:100%;
+        }
+         100% {
+            margin-right:0;
+        }
+    }
+}
+/* modal box */
+ .coupon {
+     border: 5px dotted #e8e8e8;
+     background: linear-gradient( rgba(78, 78, 78, 0.5), rgba(27, 27, 27, 0.5) );
+     border-radius: 50px;
+     margin: 0 auto;
+     width: 100%;
+}
+ .container-coupon {
+     padding: 15px 16px;
+     border-radius: 10px;
+     background: linear-gradient( rgba(171, 167, 167, 0.96), rgba(0, 0, 0, 0.5) );
+}
+ span.promo {
+     background: #313131;
+     padding: 3px;
+     color: #fff;
+}
+ p.cupon-info{
+     color: #172a14;
+     font-size: 15px;
+}
+ .expire {
+     color: #561e1e;
+}
+ .bottom-strip{
+     nd: #e65634;
+}
+ .modal-header{
+     background: #060503;
+     color: #fff;
+}
+ .voucher{
+     padding: 30px;
+     margin-left: 25%;
+}
+/****** extra *******/
+/****** contact page *******/
+/* ========================================== CONTACT SECTION ========================================== */
+ .contact1{
+     border-radius:1px;
+     background-color:rgba(21, 12, 0, 0.74);
+     color: #f5f5f5;
+}
+ .google-map {
+     margin-top: 10px;
+     padding: 20px;
+}
+ .form-holder-address{
+     font-size: 14px;
+}
+ input[type="text"] {
+     margin-left: 1px;
+     padding: 5px;
+     font-size: 15px;
+}
+ .form-holder{
+     padding-top: 10px;
+}
+ @media (max-width: 667px) {
+     .form-holder-address{
+         padding: 30px;
+    }
+}
+/* Social Icons info/about page */
+ .about-icons {
+     margin: 10px 0px 0px 0px;
+}
+ .about-icons i {
+     margin-right: 10px;
+     padding: 0px;
+     font-size: 35px;
+     color: #323232;
+     box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+ .about-icons li {
+     margin: 0px;
+     padding: 0;
+     display: inline-block;
+}
+ #social-fb:hover {
+     color: #3B5998;
+     transition: all .001s;
+}
+ #social-tw:hover {
+     color: #4099FF;
+     transition: all .001s;
+}
+ #social-gp:hover {
+     color: #d34836;
+     transition: all .001s;
+}
+ #social-em:hover {
+     color: #f39c12;
+     transition: all .001s;
+}
+ @media (max-width: 667px) {
+     .divs-bottom{
+         position: relative;
+         padding: 50px;
+    }
+     .logo-bottom{
+         position: relative ;
+         padding-left: 10%;
+         left: 45%;
+    }
+     .copyright{
+         position: relative ;
+         left: %;
+         left: 50%;
+         font:10px;
+    }
+     div.about-icons ul > li a {
+         position: relative ;
+         display: inline;
+         width: 100%;
+         padding: 10px;
+         left: 80%;
+    }
+     .w-100{
+         margin-top: 99%;
+    }
+}
+ @media (max-width: 400px) {
+     div.about-icons ul > li a {
+         position: relative ;
+         display: inline;
+         left: 55%;
+    }
+     ul > li a{
+         padding-bottom: 10px;
+    }
+}
+
+
+/* Coffee info section  */
+
+@import url("https://fonts.googleapis.com/css?family=Lato|Lora");
+ .coffee-types {
+    /* background: #252C32;
+     */
+     background-color:rgba(21, 12, 0, 0.74);
+     font-family: "Lato", sans-serif;
+     text-transform: uppercase;
+}
+ h3 {
+     font-size: 0.8em;
+     letter-spacing: 1px;
+     font-weight: 100;
+}
+ .coffees-div {
+     position: relative;
+     margin: auto;
+     overflow: hidden;
+     width: 400px;
+     height: 700px;
+}
+ .bar {
+     position: absolute;
+     height: 85%;
+     width: 2px;
+     left: 8%;
+     top: 7.5%;
+     background: #F4E8DA;
+}
+ .circle {
+     width: 10px;
+     height: 10px;
+     position: absolute;
+     border-radius: 50%;
+     left: -5px;
+     border: 1px solid #F4E8DA;
+     box-shadow: 0px 0px 7px #f4e8da;
+}
+ .top {
+     background: #5B4644;
+     top: -1%;
+}
+ .middle {
+     background: #87624F;
+     top: 38%;
+}
+ .bottom {
+     background: #DAB7A3;
+     bottom: -1%;
+}
+ .bold {
+     color: #87624F;
+     position: absolute;
+     top: -7%;
+     left: -17px;
+}
+ .creamy {
+     color: #DAB7A3;
+     position: absolute;
+     bottom: -7%;
+     left: -27px;
+}
+ .info {
+     width: 55%;
+     height: 100%;
+     position: absolute;
+     left: 43%;
+}
+ .coffee-cups {
+     width: 40%;
+     height: 100%;
+     position: absolute;
+     left: 10%;
+     top: 3%;
+}
+ .handle {
+     position: absolute;
+     height: 20px;
+     width: 15px;
+     background: transparent;
+     border-radius: 50% 30%;
+     left: 95%;
+     top: 10%;
+     z-index: -1;
+     border: 2px solid #F4E8DA;
+}
+ .cup {
+     position: absolute;
+     width: 70px;
+     height: 55px;
+     background: #252C32;
+     border: 2px solid #F4E8DA;
+     border-radius: 0 0 5rem 5rem;
+     left: 20%;
+}
+ .cup-small {
+     position: absolute;
+     width: 55px;
+     height: 40px;
+     background: #252C32;
+     border: 2px solid #F4E8DA;
+     border-radius: 0 0 5rem 5rem;
+     left: 23%;
+}
+ .cup-long {
+     position: absolute;
+     width: 60px;
+     height: 70px;
+     background: #252C32;
+     border: 2px solid #F4E8DA;
+     border-radius: 10% 10% 50% 50%;
+     left: 22%;
+}
+ .doppio {
+     top: 5%;
+     background: linear-gradient(to bottom, #252C32 40%, #5B4644 40%, #87624F 70%);
+}
+ .americano {
+     top: 18.5%;
+     background: linear-gradient(to bottom, #252C32 13%, #859FB5 13%, #859FB5 50%, #87624F 50%);
+}
+ .macchiato {
+     top: 35%;
+     background: linear-gradient(to bottom, #252C32 20%, #F4E8DA 20%, #F4E8DA 40%, #87624F 40%);
+}
+ .flatwhite {
+     top: 50%;
+     background: linear-gradient(to bottom, #252C32 10%, #F4E8DA 10%, #DAB7A3 60%, #87624F 65%, #5B4644 90%);
+}
+ .cappuccino {
+     top: 64%;
+     background: linear-gradient(to bottom, #F4E8DA 50%, #DAB7A3 50%, #DAB7A3 55%, #87624F 60%);
+}
+ .latte {
+     top: 81%;
+     background: linear-gradient(to bottom, #252C32 5%, #F4E8DA 5%, #F4E8DA 30%, #DAB7A3 30%, #DAB7A3 70%, #87624F 70%);
+}
+ h2 {
+     color: #F4E8DA;
+     font-size: 1em;
+     letter-spacing: 3px;
+     text-align: left;
+}
+ p.coffee-info {
+     color: #F4E8DA;
+     font-family: "Lora", serif;
+     text-transform: none;
+     font-size: 0.7em;
+     letter-spacing: 0.5px;
+     margin-top: -5px;
+     text-align: left;
+}
+ .first, .second, .third, .fourth, .fifth, .sixth {
+     position: absolute;
+}
+ .first {
+     top: 7%;
+}
+ .second {
+     top: 21%;
+}
+ .third {
+     top: 36%;
+}
+ .fourth {
+     top: 52%;
+}
+ .fifth {
+     top: 65%;
+}
+ .sixth {
+     top: 83%;
+}
+ .small {
+     margin-left: 20px;
+     margin-top: -1px;
+     font-family: "Lato", sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+}
+ .key {
+     position: relative;
+     margin: auto;
+     width: 70%;
+     height: 200px;
+     font-size: 14px;
+}
+ .espresso {
+     background: #5B4644;
+     position: absolute;
+     left: 17%;
+}
+ .milk {
+     background: #DAB7A3;
+     position: absolute;
+     left: 40%;
+}
+ .foam {
+     background: #F4E8DA;
+     position: absolute;
+     left: 63%;
+}
+ .water {
+     background: #859FB5;
+     position: absolute;
+     left: 83%;
+}
+/*responsive coffee info section  */
+ @media only screen and (max-width: 736px) {
+     .coffee-types {
+         position: relative;
+         margin: auto;
+         overflow: hidden;
+         width: 100%;
+         height: auto;
+    }
+     .key{
+         position: relative;
+         margin: auto;
+         width: 100%;
+         height: 200px;
+         left: -4%;
+         font-size: 14px;
+    }
+     .circleb {
+         height: 15px;
+         position: absolute;
+         border-radius: 50%;
+         border: 1px solid #F4E8DA;
+         box-shadow: 0px 0px 7px #f4e8da;
+    }
+}

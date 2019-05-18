@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300italic,400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.bundle.js"></script>
+    <title>Tino's Coffee</title>
+</head>
+
+<body>
+
+
+
+
+    <!-- homepage with video - 1 section  -->
+    <!--https://servicesie.website/wp-content/uploads/2019/04/video3.mp4 -->
+    <header id="top">
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop>
+  <source src="https://servicesie.website/wp-content/uploads/2019/04/video3.mp4" type="video/mp4">
+  </video>
+        <div class="container-video h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 ">
+                    <h1 class="display-3 animated bounceOutLeft delay-3s">Welcome to Tino's Coffee</h1>
+                    <p class="lead mb-0 animated bounceOutLeft delay-3s ">A yawn is a silent scream for coffee</p>
+                    <div class="marquee">
+
+
+                        <a class="btn btn-default orange-circle-button animated bounce " href="#vote-poll">Get<br />your <br /> voucher<br /><span class="orange-circle-greater-than"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- end of main homepage  -->
+
+
+    <!-- Coofee info - 2 section   -->
+
+    <section class="container coffee-types">
+
+        <div class="row justify-content-center">
+            <div class="container">
+                <h1 class="header3 animated shake ">Coffee Info</h1>
+                <p class="header4">Details of how each type of coffee is made</p>
+            </div>
+
+
+            <div class="container coffees-div">
+                <div class="bar">
+                    <div class="bold">
+                        <h3>Bold</h3>
+                    </div>
+                    <div class="circle top"></div>
+                    <div class="circle middle"></div>
+                    <div class="circle bottom"></div>
+                    <div class="creamy">
+                        <h3>Creamy</h3>
+                    </div>
+                </div>
+                <div class="coffee-cups">
+                    <div class="cup-small doppio">
+                        <div class="handle"></div>
+                    </div>
+                    <div class="cup americano">
+                        <div class="handle"></div>
+                    </div>
+                    <div class="cup-small macchiato">
+                        <div class="handle"></div>
+                    </div>
+                    <div class="cup-small flatwhite">
+                        <div class="handle"></div>
+                    </div>
+                    <div class="cup cappuccino">
+                        <div class="handle"></div>
+                    </div>
+                    <div class="cup-long latte">
+                        <div class="handle"></div>
+                        <div class="bottom-handle"></div>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="first">
+                        <h2>Espresso</h2>
+                        <p class="coffee-info">One or two shot of espresso. Straight.</p>
+                    </div>
+                    <div class="second">
+                        <h2>americano</h2>
+                        <p class="coffee-info">Shots of espresso diluted with water</p>
+                    </div>
+                    <div class="third">
+                        <h2>Macchiato</h2>
+                        <p class="coffee-info">Espresso with a dash of frothy foamed milk.</p>
+                    </div>
+                    <div class="fourth">
+                        <h2>Flat White</h2>
+                        <p class="coffee-info">Double shot of espresso with steamed milk.</p>
+                    </div>
+                    <div class="fifth">
+                        <h2>Cappuccino</h2>
+                        <p class="coffee-info">Double shot of espresso topped with an airy thick layer of foamed milk.</p>
+                    </div>
+                    <div class="sixth">
+                        <h2>Caffe Latte</h2>
+                        <p class="coffee-info">A shot of espresso in steamed milk lightly topped with foam.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="key">
+                <div class="circle espresso">
+                    <p class="small coffee-info">espresso</p>
+                </div>
+                <div class="circle milk">
+                    <p class="small coffee-info">steamed milk</p>
+                </div>
+                <div class="circle foam">
+                    <p class="small coffee-info">milk foam</p>
+                </div>
+                <div class="circle water">
+                    <p class="small coffee-info">water</p>
+                </div>
+            </div>
+
+
+
+    </section>
+
+<!--  Poll  - 3 - section   -->
+    <section class="container vote-forma " id="vote-poll">
+
+        <div class="row justify-content-center">
+            <div class="container">
+                <h1 class="header1 animated shake ">Which one is your Favourite Coffee?</h1>
+                <p class="header2">Participate in our Current Survey and Get a Free Coffee</p>
+            </div>
+
+
+            <div class="col-sm-4  ">
+
+
+                <form id="vote-form" onsubmit="return checkForm(this);">
+
+
+                    <p class="form-1">
+                        <input type="radio" name="cafe" id="espresso" value="Espresso">
+                        <label class="cafe-type" for="espresso" data-toggle="tooltip" title="Straight">Espresso</label>
+                    </p>
+                    <p class="form-1">
+                        <input type="radio" name="cafe" id="americano" value="Americano">
+                        <label for="americano" class="cafe-type" data-toggle="tooltip" title="Shots of espresso diluted with water">Americano</label>
+                    </p>
+
+                    <p class="form-1">
+                        <input type="radio" name="cafe" id="macchiato" value="Macchiato">
+                        <label for="Macchiato" class="cafe-type" data-toggle="tooltip" title="Espresso with a dash of frothy foamed milk.">Macchiato</label>
+                    </p>
+                    <p class="form-1">
+                        <input type="radio" name="cafe" id="flat-white" value="FlatWhite">
+                        <label for="Flat White" class="cafe-type" data-toggle="tooltip" title="Double shot of espresso with steamed milk.">Flat White</label>
+                    </p>
+                    <p class="form-1">
+                        <input type="radio" name="cafe" id="cappuccino" value="Cappuccino">
+                        <label for="Cappuccino" class="cafe-type" data-toggle="tooltip" title="Double shot of espresso topped with an airy thick layer of foamed milk.">Cappuccino</label>
+                    </p>
+
+                    <p class="form-1">
+                        <input type="radio" name="cafe" id="caffe-latte" value="CaffeeLatte">
+                        <label for="Caffee Latte" class="cafe-type" data-toggle="tooltip" title="A shot of espresso in steamed milk lightly topped with foam.">Caffee Latte</label>
+                    </p>
+                    <p class="form-submit">
+                        <input type="submit" name="myButton" value="Vote" class="btn btn-outline-light" data-toggle="modal" data-target="#myModal"><br><br>
+                    </p>
+
+                </form>
+
+
+            </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+            <div class="col-sm-8  ">
+
+                <div id="chartContainer" class="chart" style="height: 300px; width: 100%; ">
+
+                </div>
+            </div>
+    </section>
+
+<!-- Validade vote - only one vote - after vote the button is disabled  -->
+    <script type="text/javascript">
+        function checkForm(form)
+          {
+            //
+            // validate form fields
+            //
+
+            form.myButton.disabled = true;
+            return true;
+          }
+    </script>
+
+
+
+
+
+<!-- Contact us section  -->
+
+    <section class=" container contact1">
+        <div class="row justify-content-center">
+            <div class="container">
+                <h1 class="header1 animated shake ">Contact us</h1>
+                <p class="header2">Feel free to contact us</p>
+            </div>
+        </div>
+        <div class="row contact1 pb-2">
+            <div class="col-sm-4">
+
+                <div class="form-holder ">
+
+
+
+                    <form action='https://formspree.io/warlins25@gmail.com' method='post' id="contact-form">
+                        <div class="md-form xs-form">
+                            <label for="contact-name" class="label-mobile">Your name</label>
+                            <input type="text" id="user-name" name="username" class="form-control">
+                        </div>
+                        <div class="md-form">
+                            <label for="contact-email" class="">Your email</label>
+                            <input type="text" id="user-email" name="useremail" class="form-control">
+                        </div>
+                        <div class="md-form">
+                            <label for="contact-Subject" class="">Subject</label>
+                            <input type="text" id="user-Subject" name="subject" class="form-control">
+                        </div>
+                        <div class="md-form">
+                            <label for="contact-Subject" class="">Message</label>
+                            <textarea type="text" id="message" class="form-control" name="message" rows="5" style="padding-bottom: 1.2rem;">
+                    </textarea>
+                        </div>
+                        <div class="text-center">
+                            <br>
+                            <button type="submit" id="submit" class="btn btn-info px-6">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Map===============
+        ================================ -->
+            <div class="col-md-8 col-xs-8 google-map  ">
+                <div class="form-holder address  ">
+
+
+                    <!--Google map-->
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.694618089596!2d-6.2452555483664876!3d53.34872258213573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e8cd86e97e7%3A0x6d51b774ee7fa935!2sNational+College+of+Ireland!5e0!3m2!1sen!2sie!4v1552238103487"
+                        width="100%" height="360" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                    <div class="form-holder-address  ">
+
+                        000 Dublin 2<br /> Dublin D2<br /> Ireland
+                        <br />
+                    </div>
+
+                </div>
+    </section>
+
+
+
+
+
+
+    <!-- The Modal - Coffee Voucher  -->
+    <div class="modal fade " id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Voucher</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-content">
+                    <div class="modal-body coupon">
+
+                        <div class="voucher">
+
+
+                            <img src="images/logo.png" alt="Avatar" class="img-responsive " width="50%" height="auto">
+                        </div>
+                        <div class="container-coupon" style="background-color:;">
+                            <h3><b>Free Coffee</b></h3>
+                            <p class="cupon-info">Thank you for your vote. As we all know that Tino's Coffee is one of the most leading coffee brands in Ireland. People love hot drinks that's why. Tino's coffee are in Ireland to make coffee for you. </p>
+                        </div>
+                        <div class="container-coupon">
+                            <h6>Use Promo Code: <span class="promo">BOH232</span></h6>
+                            <h6 class="expire">Expires: Jan 03, 2020</h6>
+
+                            <div class="modal-footer bottom-strip">
+
+                                <a download="voucher.png" href="images/voucher.png" title="ImageName" class="btn btn-outline-warning">Download Voucher</a>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <!-- Modal footer -->
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- footer  -->
+    <div class="bottom-footer section-padding">
+        <div class="container">
+            <div class="row footer-row">
+                <div class="col-md-4  text-center divs-bottom">
+                    <div class="logo-bottom">
+                        <a href="#top"><img src="./images/logo.png" alt="tino's coffee logo" class="img-responsive" style="width:100px; height:100px;"></a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 divs-bottom  copyright-before text-center">
+                    <div class="copyright">
+                        <p>© <span>2019</span> <a href="#" class="transition">Tino</a> </p>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 divs-bottom text-center ">
+                    <div class="about-icons">
+                        <ul>
+                            <li><a href="https://www.facebook.com/"><i id="social-fb" class="fab fa-facebook-f"></i></a> </li>
+                            <li><a href="https://twitter.com/"><i id="social-tw" class="fab fa-twitter"></i></a> </li>
+                            <li> <a href="https://plus.google.com/"><i id="social-gp" class="fab fa-google-plus-g"></i></a> </li>
+                            <!--			<li> <a href="mailto:warlins18@hotmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a> </li> -->
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+    <!-- end of footer  -->
+
+
+<script type="text/javascript" src=""> global $</script>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- for the graph  https://canvasjs.com-->
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js" type="text/javascript"></script>
+    <!-- https://cdnjs.com/libraries/pusher -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.4.0/pusher.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <script src="js/main.js"></script>
+   
+    <script src="js/index.js"></script>
+    <script src="client.js"></script>
+    <script src="worker.js"></script>
+
+
+</body>
+
+</html>

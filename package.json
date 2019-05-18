@@ -1,0 +1,21 @@
+{
+  "name": "coffee-polling",
+  "version": "1.0.0",
+  "description": "coffe polling 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "warley",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.22",
+    "node-sass": "^4.11.0",
+    "pusher": "^2.2.0",
+    "web-push": "^3.3.3"
+  }
+}
