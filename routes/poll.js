@@ -6,8 +6,8 @@ const Pusher = require('pusher'); //it is used to build real time applications ,
 
 var pusher = new Pusher({
   appId: '754475',
-  key: 'b9d758f152fe2b0371ba',
-  secret: '7192a766d76c33c92019',
+  key: '',
+  secret: '',
     
     
       
