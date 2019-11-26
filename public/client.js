@@ -1,4 +1,4 @@
-const publicVapidKey = 'BIqWjqP6F0Pocn__u7Q9Fvlx5EmZ9zWVaey40xcudf_e0tuOZvKVh9HIWi45bYuJVyXpynpdjU6sdAvW_ksVbpg';
+const publicVapidKey = '';
 
 
 //check for service worker
