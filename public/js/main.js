@@ -78,7 +78,7 @@ fetch("/poll")  //hit the get request
                // Enable pusher logging - don't include this in production
                  Pusher.logToConsole = true;
 
-                 var pusher = new Pusher('b9d758f152fe2b0371ba', {
+                 var pusher = new Pusher(', {
                    cluster: 'eu',
                    forceTLS: true
                  });
