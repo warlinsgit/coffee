@@ -14,7 +14,7 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "mongoose": "^5.4.22",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "pusher": "^2.2.0",
     "web-push": "^3.3.3"
   }
